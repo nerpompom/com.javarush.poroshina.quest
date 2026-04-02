@@ -1,0 +1,43 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "Тебя встречает чудище. Оно хочет тебя съесть, куда побежишь?",
+      "answerIds": [11, 12, 13],
+      "isFinish": false
+    },
+    {
+      "id": 2,
+      "text": "В переулке мертвецов вас встречает злой зомби с бензопилой",
+      "answerIds": [21, 22],
+      "isFinish": false
+    },
+    {
+      "id": 3,
+      "text": "В парке привидений вы встречаете толпу привидений. Ваши действия",
+      "answerIds": [31, 32],
+      "isFinish": false
+    },
+    {
+      "id": 4,
+      "text": "Вы смогли сбежать из этого жуткого места. Ура!",
+      "answerIds": [],
+      "isFinish": true
+    },
+    {
+      "id": 5,
+      "text": "Вы погибли. Начните заново",
+      "answerIds": [],
+      "isFinish": true
+    }
+  ],
+  "answers": [
+    { "id": 11, "text": "В переулок мертвецов", "nextQuestionId": 2 },
+    { "id": 12, "text": "В парк привидений", "nextQuestionId": 3},
+    { "id": 13, "text": "Остаться стоять как вкопанный", "nextQuestionId": 5 },
+    { "id": 21, "text": "Биться", "nextQuestionId": 5 },
+    { "id": 22, "text": "Убежать в лес", "nextQuestionId": 4 },
+    { "id": 31, "text": "Бросить в них святую воду и сбежать в лес", "nextQuestionId": 4 },
+    { "id": 32, "text": "Кинуться на них с кулаками", "nextQuestionId": 5 }
+  ]
+}
